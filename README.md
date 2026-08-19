@@ -1,6 +1,6 @@
 # img-pilot
 
-A modern, isomorphic image toolkit for JavaScript & TypeScript validate, optimize, convert, compress, resize, crop, and inspect images across the **Browser** and **Node.js**, with one API. Visit the official website: img-pilot.vercel.app. It includes all the examples, API usage, and code snippets you need to get started.
+A modern, isomorphic image toolkit for JavaScript & TypeScript validate, optimize, convert, compress, resize, crop, and inspect images across the **Browser** and **Node.js**, with one API. Visit the [official website](https://img-pilot.vercel.app/). It includes all the examples, API usage, and code snippets you need to get started.
 
 ```bash
 npm install img-pilot
