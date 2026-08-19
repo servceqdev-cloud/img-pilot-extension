@@ -1,6 +1,6 @@
 {
   "name": "img-pilot",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A developer friendly, isomorphic image toolkit for React, Next.js, Node.js, Vite, Svelte, Vue, Nuxt, Astro, and vanilla JS/TS.",
   "type": "module",
   "main": "./dist/index.cjs",
