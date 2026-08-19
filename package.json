@@ -1,0 +1,50 @@
+{
+  "name": "img-pilot",
+  "version": "0.1.1",
+  "description": "A developer friendly, isomorphic image toolkit for React, Next.js, Node.js, Vite, Svelte, Vue, Nuxt, Astro, and vanilla JS/TS.",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "peerDependencies": {
+    "sharp": ">=0.32.0"
+  },
+  "peerDependenciesMeta": {
+    "sharp": {
+      "optional": true
+    }
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --sourcemap --clean && tsc -p tsconfig.json --emitDeclarationOnly --declaration --outDir dist",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.6.0",
+    "vitest": "^2.0.0"
+  },
+  "keywords": [
+    "image",
+    "sdk",
+    "sharp",
+    "canvas",
+    "resize",
+    "compress",
+    "optimize",
+    "typescript"
+  ],
+  "license": "MIT"
+}
